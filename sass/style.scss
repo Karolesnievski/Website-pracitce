@@ -21,4 +21,16 @@ body {
 	font-size: 1.6rem;
 }
 
+// nav
+.burger-btn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 1em;
+	background: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	z-index: 1000;
 
+	
+}

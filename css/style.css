@@ -17,4 +17,15 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
+
+.burger-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 1em;
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 1000;
+}
 /*# sourceMappingURL=style.css.map */
