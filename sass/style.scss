@@ -1,6 +1,6 @@
-@import './colors';
-@import './components';
-@import './mixins';
+@import "./colors";
+@import "./components";
+@import "./mixins";
 
 *,
 *::before,
@@ -10,9 +10,13 @@
 	margin: 0;
 }
 
-body {
-	font-family: 'Dancing Script', cursive;
-font-family: 'Open Sans', sans-serif;
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
-
+body {
+	font-family: "Dancing Script", cursive;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+}
