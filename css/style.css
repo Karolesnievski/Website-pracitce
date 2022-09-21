@@ -68,5 +68,7 @@ body {
 .burger-btn__bars::before {
   top: 26px;
   width: 30%;
+  -webkit-transition-delay: .1;
+          transition-delay: .1;
 }
 /*# sourceMappingURL=style.css.map */
