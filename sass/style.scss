@@ -32,5 +32,21 @@ body {
 	cursor: pointer;
 	z-index: 1000;
 
-	
+	&:focus {
+		outline: 0;
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-radius: 8px;
+	}
+
+	&__box {
+		position: relative;
+		width: 40px;
+		height: 30px;
+	}
+
+	&__bars,
+	&__bars::after,
+	&__bars::before {
+		@include burgerBtn;
+	}
 }
